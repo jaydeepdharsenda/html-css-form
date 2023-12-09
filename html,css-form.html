@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<style>
+    .main {
+        height: 750px;
+        width: 1150px;
+        background-color: white;
+        margin: auto;
+        box-shadow: 10px 10px 11px -5px;
+        padding-top: 70px;
+        padding-left: 50px;
+        display: flex;
+    }
+
+    .main>.green {
+        height: 550px;
+        width: 500px;
+        background-color: rgb(68, 207, 68);
+        padding-top: 35px;
+
+    }
+
+    .main>.green>.data {
+        color: white;
+        line-height: 70px;
+        margin-left: 60px;
+    }
+
+    .main>.form {
+        height: 585px;
+        width: 900px;
+        background-color: white;
+        box-shadow: 10px 2px 33px 2px;
+        margin-right: 30px;
+    }
+
+    .main>.form>.ditels>.name{
+        width: 35%;
+        outline: 0;
+        border: 0;
+        border-bottom: 2px solid black;
+    }
+    .main>.form>.ditels>.address{
+        width: 35%;
+        outline: 0;
+        border: 0;
+        border-bottom: 2px solid black;
+    }
+    .main>.form>.ditels>.subject{
+        width: 72%;
+        outline: 0;
+        border: 0;
+        border-bottom: 2px solid black;
+    }
+    .main>.form>.ditels>textarea{
+        
+    
+        border: none;
+        border-bottom: 2px solid black;
+    }
+    .main>.form>.ditels{
+        margin-left: 20px;
+        line-height:70px;
+    }
+    .main>.form>.ditels>.button{
+        height: 56px;
+        width:218px;
+        background-color: rgb(64, 223, 32);
+        border-radius: 10px;
+        border: 0;
+        cursor: pointer;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="green">
+            <div class="data">
+                <h1>Let's get in touch</h1>
+                <p>we're open for any suggestion or just to have a chat</p>
+                <i class="fa-solid fa-location-dot">Address:198 West 21th<br> Street,Suite 721 New York<br> NY
+                    10016</i><br>
+                <i class="fa-solid fa-phone">Phone: + 1235 2355 98</i><br>
+                <i class="fa-solid fa-paper-plane">Email:info@yoursite.com</i><br>
+                <i class="fa-solid fa-earth-americas">Website yoursite.com</i>
+            </div>
+        </div>
+        <div class="form">
+            <div class="ditels">
+                <h3>Get in touch</h3>
+                <input class="name" type="text" placeholder="Name">
+                <input class="address" type="text" placeholder="EMAIL ADDRESS"><br>
+                <input class="subject" type="text" placeholder="Subject"><br>
+             <textarea name="" id="" cols="68" rows="10" placeholder="Message"></textarea><br>
+              <button class="button">Send Message</button>
+            </div>
+        </div>
+</body>
+
+</html>
